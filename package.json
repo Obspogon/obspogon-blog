@@ -1,0 +1,18 @@
+{
+	"name": "blog",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"start": "npx @11ty/eleventy --serve",
+		"build": "npx @11ty/eleventy"
+	},
+	"keywords": [],
+	"author": "Obspogon",
+	"license": "ISC",
+	"devDependencies": {
+		"@11ty/eleventy": "^1.0.1",
+		"npm-run-all": "^4.1.5",
+		"sass": "^1.50.1"
+	}
+}

@@ -1,0 +1,13 @@
+---
+layout: layout
+title: Obspogon's Blog
+---
+
+{{reverse collections.post}}
+{{#each collections.post}}
+	<div class="post">
+		<h2><a href="{{this.url}}">{{this.data.title}}</a></h2>
+		{{excerpt this}}
+	</div>
+	<hr>
+{{/each}}

@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@font-face {
+	font-family: "Sega";
+	src: url("/SEGA.TTF") format("truetype");
+}
+
+:root {
+	--maincolor: gray;
+	--border: 2px solid var(--maincolor);
+	--default-padding: 1em;
+}
+
+body {
+	max-width: 10in;
+	margin: 2em auto;
+	font-family: "Lato", sans-serif;
+	font-size: large;
+	align-self: start;
+	background-image: url("/bg/city.png");
+}
+
+header,
+main,
+footer {
+	border: var(--border);
+	padding: var(--default-padding);
+	margin: 0.5em;
+}
+
+header {
+	background-image: url("/bg/header.jpg");
+	font-family: "Sega", "Lato", sans-serif;
+	text-align: center;
+}
+
+header a {
+	color: blue;
+	background-color: white;
+	font-size: larger;
+	padding: 0.1em;
+	text-decoration: none;
+}
+
+hr {
+	border: 1px dotted black;
+}
+
+.left,
+.right,
+footer {
+	background-image: url("./bg/halftone-yellow.png");
+}
+
+.col-2 {
+	display: flex;
+	align-items: stretch;
+	justify-content: space-between;
+	border: 0;
+	background-color: transparent;
+	padding: 0;
+}
+
+.left,
+.right {
+	padding: 1em;
+	margin: 0;
+	border: var(--border);
+}
+
+.left {
+	flex-basis: 75%;
+	background-image: url("./bg/lined_paper.png");
+}
+
+.right {
+	flex-basis: 25%;
+	background-image: url("./bg/halftone-yellow.png");
+}
