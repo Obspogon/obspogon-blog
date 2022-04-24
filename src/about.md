@@ -1,5 +1,5 @@
 ---
-layout: layout
+layout: base
 title: About
 tags: ["section"]
 ---

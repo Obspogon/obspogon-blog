@@ -7,38 +7,34 @@
 		<link rel="stylesheet" href="/style.css" />
 
 		<!-- Grab title from the page data and dump it here -->
-		<title>Introduction post</title>
+		<title>{{title}}</title>
 	</head>
 	<body>
 		<header>
-			<h1><a href="/">Obspogon&#x27;s Blog</a></h1>
+			<h1><a href="/">{{global.websiteTitle}}</a></h1>
 		</header>
 		<main class="col-2">
 			<div class="left">
 				<!-- Grab the content from the page data, dump it here, and mark it as safe -->
-				
-<h1>Introduction post</h1>
-<p>Hello and welcome to my blog. I'm using this to post and try out some stuff. I hope you find it comfortable.</p>
-
-
-Tags: meta, post
+				{{{content}}}
 			</div>
 			<div class="right">
 				<nav>
 					<ul>
+						{{#each collections.section}}
 						<li>
-							<a href="/about/">About</a>
+							<a href="{{this.url}}">{{this.data.title}}</a>
 						</li>
-						<li>
-							<a href="/credits/">Credits</a>
-						</li>
+						{{/each}}
 					</ul>
 
 					<h4>Recent Posts</h4>
 					<ul>
+						{{#each collections.post}}
 							<li>
-								<a href="/posts/post/">Introduction post</a>
+								<a href="{{this.url}}">{{this.data.title}}</a>
 							</li>
+						{{/each}}
 					</ul>
 				</nav>
 			</div>
