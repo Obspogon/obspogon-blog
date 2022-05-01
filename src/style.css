@@ -15,6 +15,7 @@ body {
 	margin: 2em auto;
 	font-family: "Lato", sans-serif;
 	font-size: large;
+	line-height: 1.5;
 	align-self: start;
 	background-image: url("/bg/city.png");
 }
@@ -73,6 +74,32 @@ footer {
 }
 
 .right {
+	padding-left: 0;
+	padding-right: 0;
 	flex-basis: 25%;
 	background-image: url("./bg/halftone-yellow.png");
+}
+
+.right ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.right ul li {
+	padding: 0.1em 0.5em;
+}
+
+.right ul li:hover {
+	background-color: lightcoral;
+}
+
+.right ul li a {
+	display: block;
+	width: auto;
+	text-decoration: none;
+}
+
+.right h4 {
+	margin-left: 1em;
 }
