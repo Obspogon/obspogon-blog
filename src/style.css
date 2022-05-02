@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap");
+
 @font-face {
 	font-family: "Sega";
 	src: url("/SEGA.TTF") format("truetype");
@@ -44,6 +46,11 @@ header a {
 
 hr {
 	border: 1px dotted black;
+}
+
+code,
+code pre {
+	font-family: "Roboto Mono", "Courier New", monospace;
 }
 
 .col-2 {
