@@ -8,5 +8,7 @@ tags: ["section"]
 
 -   Blog made with [Eleventy](https://www.11ty.dev/) using the [Handlebars](https://handlebarsjs.com/) template.
 -   Backgrounds from [WallpaperCave](https://wallpapercave.com/) and [Subtle Patterns](https://www.toptal.com/designers/subtlepatterns/).
--   Title font from [DaFont](https://www.dafont.com/)
 -   Blog layout based on [eev.ee/fuzzy notepad](https://eev.ee/blog/)
+-   Colophon
+    -   Main font: Open Sans from Google Fonts
+    -   Title font from [DaFont](https://www.dafont.com/)
