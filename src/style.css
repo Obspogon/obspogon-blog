@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
 @font-face {
 	font-family: "Sega";
 	src: url("/SEGA.TTF") format("truetype");
@@ -13,7 +13,7 @@
 body {
 	max-width: 10in;
 	margin: 2em auto;
-	font-family: "Lato", sans-serif;
+	font-family: "Open Sans", sans-serif;
 	font-size: large;
 	line-height: 1.5;
 	align-self: start;
