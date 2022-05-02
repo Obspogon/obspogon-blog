@@ -76,6 +76,7 @@ hr {
 
 footer {
 	background-image: url("./bg/halftone-yellow.png");
+	text-align: center;
 }
 
 .right ul {
