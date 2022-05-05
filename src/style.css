@@ -84,7 +84,7 @@ code pre {
 	padding-left: 0;
 	padding-right: 0;
 	flex-basis: 25%;
-	background-image: url("./bg/halftone-yellow.png");
+	background-color: #eecc5c;
 }
 
 footer {
