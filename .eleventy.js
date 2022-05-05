@@ -1,16 +1,15 @@
+const blogTools = require("eleventy-plugin-blog-tools"); // https://plug11ty.com/plugins/blog-tools/
+const readerBar = require("eleventy-plugin-reader-bar"); // https://plug11ty.com/plugins/reader-bar/
+
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("src");
-
-	// eleventyConfig.addFilter("postContent", function (post) {
-	// 	return post.template.inputContent;
-	// });
 
 	eleventyConfig.addFilter("reverse", (arr) => {
 		arr.reverse();
 	});
 
-	// eleventyConfig.addWatchTarget("./style.css");
-	eleventyConfig.addShortcode("excerpt", (article) => extractExcerpt(article));
+	eleventyConfig.addPlugin(blogTools);
+	eleventyConfig.addPlugin(readerBar);
 
 	eleventyConfig.setBrowserSyncConfig({
 		open: true,
@@ -27,31 +26,3 @@ module.exports = function (eleventyConfig) {
 		},
 	};
 };
-
-function extractExcerpt(article) {
-	if (!article.hasOwnProperty("templateContent")) {
-		console.warn('Failed to extract excerpt: Document has no property "templateContent".');
-		return null;
-	}
-
-	let excerpt = null;
-	const content = article.templateContent;
-
-	// The start and end separators to try and match to extract the excerpt
-	const separatorsList = [
-		{ start: "<!-- Excerpt Start -->", end: "<!-- Excerpt End -->" },
-		{ start: "<p>", end: "</p>" },
-	];
-
-	separatorsList.some((separators) => {
-		const startPosition = content.indexOf(separators.start);
-		const endPosition = content.indexOf(separators.end);
-
-		if (startPosition !== -1 && endPosition !== -1) {
-			excerpt = content.substring(startPosition + separators.start.length, endPosition).trim();
-			return true; // Exit out of array loop on first match
-		}
-	});
-
-	return excerpt;
-}
