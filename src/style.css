@@ -47,7 +47,7 @@ header > * {
 
 header a {
 	text-decoration: none;
-	color: antiquewhite;
+	color: #ebebde;
 }
 
 hr {
@@ -77,7 +77,7 @@ code pre {
 
 .left {
 	flex-basis: 75%;
-	background-color: #d1e7f0;
+	background-color: #dce9ee;
 }
 
 .right {
