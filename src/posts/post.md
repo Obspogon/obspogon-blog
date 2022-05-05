@@ -9,7 +9,27 @@ I'm not going to have much for now. I'll add more stuff later, cause I don't nee
 
 Just look at my [website](https://obspogon.neocities.org) or [twitter](https://twitter.com/obspogon) until then.
 
-Culpa dolore adipisicing magna cillum exercitation ipsum est laborum reprehenderit consequat et. In aute laborum sit mollit consectetur esse. Labore duis anim nostrud dolore ad irure id nulla commodo veniam tempor id. Consequat deserunt incididunt irure dolor do eu.
+```
+// Some code?
+f(a) {
+	i;
+}
+```
+
+<aside>
+An aside
+</aside>
+
+> Quote
+
+Footnote. [^1]
+
+[^1]: This is the footnote.
+
+term
+: definition
+
+Culpa dolore `java.thing` adipisicing magna cillum exercitation ipsum est laborum reprehenderit consequat et. In aute laborum sit mollit consectetur esse. Labore duis anim nostrud dolore ad irure id nulla commodo veniam tempor id. Consequat deserunt incididunt irure dolor do eu.
 
 Lorem laboris non quis pariatur. Tempor do quis reprehenderit duis aliqua sit tempor. Anim enim consectetur nostrud dolore incididunt. Consectetur tempor ipsum eiusmod quis sint in ipsum aliqua laborum esse id culpa fugiat. Ea non exercitation qui ullamco occaecat eiusmod dolor ipsum dolore et.
 
