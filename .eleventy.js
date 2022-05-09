@@ -4,9 +4,9 @@ const readerBar = require("eleventy-plugin-reader-bar"); // https://plug11ty.com
 module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("src");
 
-	eleventyConfig.addFilter("reverse", (arr) => {
-		arr.reverse();
-	});
+	// eleventyConfig.addFilter("reverse", (arr) => {
+	// 	arr.reverse();
+	// });
 
 	eleventyConfig.addPlugin(blogTools);
 	eleventyConfig.addPlugin(readerBar);
