@@ -4,7 +4,6 @@ date: 2021-01-28
 ---
 
 ![Bnjo](/pics/banjo.png)
-
 Tried this on the Xbox One Rare Replay, but stopped before the end. So I tried to finish it as a podcast game. I got to where I stopped ...until I accidentally deleted my save file. So I had to do it all over again.
 
 I beat the final boss with savestates.
