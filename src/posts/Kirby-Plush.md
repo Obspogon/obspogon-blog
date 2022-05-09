@@ -3,7 +3,8 @@ title: Kirby Plush
 date: 2021-01-19
 ---
 
-<img src="/pics/kirby.jpg" alt="KIRBY!" />
+![KIRBY!](/pics/kirby.jpg)
+
 <caption>
 	First plushie I own!
 </caption>
