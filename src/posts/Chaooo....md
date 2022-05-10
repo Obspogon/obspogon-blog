@@ -5,9 +5,13 @@ date: 2020-11-18
 
 The following video is the reason I wanted to have a blog.
 
+<iframe width="630" height="354" src="https://www.youtube.com/embed/nuGA2taKfmA" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 Chao are great, but whatching this video made me realize that learning about them is really relaxing.
 
 The Chao Garden music is super relaxing.
+
+<iframe width="630" height="354" src="https://www.youtube.com/embed/pvv0PTeEzHI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Chaos (ha) themselves are cute.
 
