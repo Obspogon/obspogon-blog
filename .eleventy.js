@@ -1,8 +1,12 @@
 const blogTools = require("eleventy-plugin-blog-tools"); // https://plug11ty.com/plugins/blog-tools/
 const readerBar = require("eleventy-plugin-reader-bar"); // https://plug11ty.com/plugins/reader-bar/
+const pluginRss = require("@11ty/eleventy-plugin-rss"); // https://plug11ty.com/plugins/eleventy-plugin-rss/ https://www.11ty.dev/docs/plugins/rss/
 
 module.exports = function (eleventyConfig) {
-	eleventyConfig.addPassthroughCopy("src");
+	eleventyConfig.addPassthroughCopy("src/*.css");
+	eleventyConfig.addPassthroughCopy("src/*.ttf");
+	eleventyConfig.addPassthroughCopy("src/bg");
+	eleventyConfig.addPassthroughCopy("src/img");
 
 	// eleventyConfig.addFilter("excerpt", (post) => {
 	// 	const content = post.replace(/(<([^>]+)>)/gi, "");
@@ -11,6 +15,7 @@ module.exports = function (eleventyConfig) {
 
 	eleventyConfig.addPlugin(blogTools);
 	eleventyConfig.addPlugin(readerBar);
+	eleventyConfig.addPlugin(pluginRss);
 
 	eleventyConfig.setBrowserSyncConfig({
 		open: true,
