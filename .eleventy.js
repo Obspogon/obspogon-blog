@@ -6,7 +6,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("src/*.css");
 	eleventyConfig.addPassthroughCopy("src/*.ttf");
 	eleventyConfig.addPassthroughCopy("src/bg");
-	eleventyConfig.addPassthroughCopy("src/img");
+	eleventyConfig.addPassthroughCopy("src/pics");
 
 	// eleventyConfig.addFilter("excerpt", (post) => {
 	// 	const content = post.replace(/(<([^>]+)>)/gi, "");
