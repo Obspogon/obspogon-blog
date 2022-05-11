@@ -19,8 +19,11 @@
 				{{content | safe}}
 			</div>
 			<div class="right">
+				<a href='https://ko-fi.com/B0B82RCQR' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://cdn.ko-fi.com/cdn/kofi5.png?v=3' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+
 				<nav>
 					<ul>
+						<li><a href="/feed.xml">RSS</a></li>
 						{% for section in collections.section %} 
 						<li>
 							<a href="{{section.url}}">{{section.data.title}}</a>
@@ -51,5 +54,14 @@
 			Made by Obspogon | <a href="https://obspogon.neocities.org">Main Website</a> | <a href="https://twitter.com/obspogon">Twitter</a>
 		</footer>
 		<script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
+		<script src='https://storage.ko-fi.com/cdn/scripts/overlay-widget.js'></script>
+		<script>
+		kofiWidgetOverlay.draw('obspogon', {
+			'type': 'floating-chat',
+			'floating-chat.donateButton.text': 'Tip Me',
+			'floating-chat.donateButton.background-color': '#5cb85c',
+			'floating-chat.donateButton.text-color': '#fff'
+		});
+		</script>
 	</body>
 </html>
