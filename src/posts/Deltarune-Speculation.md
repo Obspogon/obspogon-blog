@@ -1,9 +1,12 @@
 ---
 title: Deltarune Speculation
 date: 2021-11-01
+tags: ["old post", "videogames", "deltarune"]
 ---
 
 Ever since Deltarune Chapter 2 dropped I haven't stopped thinking about it so here's some assorted thoughts. Spoilers.
+
+**This is a very old post, made before I made _this_ blog.**
 
 ### Berdly will return
 

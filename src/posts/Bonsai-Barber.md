@@ -1,9 +1,12 @@
 ---
 title: Bonsai Barber
 date: 2020-12-16
+tags: ["old post", "videogames", "wiiware", "bonsai barber"]
 ---
 
 ![Bonsai Barber Title Screen](/pics/bonsai_barber.webp)
+
+**This is a very old post, made before I made _this_ blog.**
 
 I've been playing this WiiWare game recently, and what follows are some thoughts I had.
 

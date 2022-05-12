@@ -1,10 +1,13 @@
 ---
 title: Banjo Kazooie
 date: 2021-01-28
+tags: ["old post", "videogames", "banjo kazooie"]
 ---
 
 ![Bnjo](/pics/banjo.png)
 Tried this on the Xbox One Rare Replay, but stopped before the end. So I tried to finish it as a podcast game. I got to where I stopped ...until I accidentally deleted my save file. So I had to do it all over again.
+
+**This is a very old post, made before I made _this_ blog.**
 
 I beat the final boss with savestates.
 

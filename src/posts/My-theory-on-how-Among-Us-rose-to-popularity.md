@@ -1,9 +1,12 @@
 ---
 title: My theory on how Among Us rose to popularity
 date: 2021-01-02
+tags: ["old post", "among us", "henry stickman", "videogames"]
 ---
 
 This is me writing out a series of patterns that I observed when Among Us rose in popularity and fitting them together. This is how a flash game made one of the biggest games of 2020.
+
+**This is a very old post, made before I made _this_ blog.**
 
 ##### Henry Stickman
 

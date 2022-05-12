@@ -1,9 +1,12 @@
 ---
 title: My Doomkit
 date: 2021-07-19
+tags: ["old post", "doom", "videogames"]
 ---
 
 I've been meaning to write this for years now and I've finally got the motivation. Here's how I play and organize Doom and it's many, many mods.
+
+**This is a very old post, made before I made _this_ blog.**
 
 ![Top Level Folder](/pics/doomkit.png)
 
