@@ -3,12 +3,9 @@
   "permalink": "feed.xml",
   "eleventyExcludeFromCollections": true,
   "metadata": {
-    "title": "Title",
-    "subtitle": "subtitle",
     "url": "https://delicate-marzipan-2e57d6.netlify.app/",
     "feedUrl": "https://delicate-marzipan-2e57d6.netlify.app/feed.xml",
     "author": {
-      "name": "name",
       "email": "email@example.com"
     }
   }
@@ -16,8 +13,8 @@
 ---
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>{{ metadata.title }}</title>
-  <subtitle>{{ metadata.subtitle }}</subtitle>
+  <title>{{ global.websiteTitle }}</title>
+  <subtitle>{{ global.websiteDesc }}</subtitle>
   <link href="{{ metadata.feedUrl }}" rel="self"/>
   <link href="{{ metadata.url }}"/>
   <updated>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
